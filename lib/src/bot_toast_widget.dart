@@ -18,7 +18,7 @@ showAttachedWidget({
         children: <Widget>[
           GestureDetector(
             onTap: () {
-              cancel();
+              // cancel();
             },
             child: AnimatedBuilder(
               builder: (_, child) => Opacity(
